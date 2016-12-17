@@ -11,6 +11,18 @@ Summary: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/sortedcontainers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sortedcontainers-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sortedcontainers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sortedcontainers-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sortedcontainers/badges/version.svg)](https://anaconda.org/conda-forge/sortedcontainers)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sortedcontainers/badges/downloads.svg)](https://anaconda.org/conda-forge/sortedcontainers)
+
 Installing sortedcontainers
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `sortedcontainers` available on yo
 ```
 conda search sortedcontainers --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sortedcontainers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sortedcontainers-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sortedcontainers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sortedcontainers-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sortedcontainers/badges/version.svg)](https://anaconda.org/conda-forge/sortedcontainers)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sortedcontainers/badges/downloads.svg)](https://anaconda.org/conda-forge/sortedcontainers)
 
 
 Updating sortedcontainers-feedstock
