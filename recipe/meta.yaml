@@ -1,6 +1,6 @@
 {% set name="sortedcontainers" %}
-{% set version="1.5.3" %}
-{% set sha256="37190869bdd8405426b72b75a0e3a699b7fd6a7285905892acb49bd905d8625d" %}
+{% set version="1.5.7" %}
+{% set sha256="0ff0442865e492bc50476b18000fb8400cf2472d14d21a92b27cd7c5184550ea" %}
 
 package:
   name: {{ name }}
@@ -32,9 +32,15 @@ about:
   home: http://www.grantjenks.com/docs/sortedcontainers/
   license: Apache 2.0
   summary: 'Python Sorted Container Types: SortedList, SortedDict, and SortedSet'
+  description: |
+    SortedContainers is a sorted collections library, written in pure-Python
+    and fast as C-extensions.
+  doc_url: http://www.grantjenks.com/docs/sortedcontainers/
+  doc_source_url: https://github.com/grantjenks/sorted_containers/blob/master/docs/index.rst
 
 extra:
   recipe-maintainers:
     - grantjenks
     - msarahan
     - richafrank
+    - nehaljwani
