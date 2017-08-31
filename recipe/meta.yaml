@@ -36,6 +36,7 @@ about:
     SortedContainers is a sorted collections library, written in pure-Python
     and fast as C-extensions.
   doc_url: http://www.grantjenks.com/docs/sortedcontainers/
+  dev_url: https://github.com/grantjenks/sorted_containers/
   doc_source_url: https://github.com/grantjenks/sorted_containers/blob/master/docs/index.rst
 
 extra:
