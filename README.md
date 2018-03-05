@@ -9,6 +9,8 @@ Feedstock license: BSD 3-Clause
 
 Summary: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
 
+SortedContainers is a sorted collections library, written in pure-Python
+and fast as C-extensions.
 
 
 Current build status
