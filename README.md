@@ -16,14 +16,16 @@ and fast as C-extensions.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sortedcontainers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sortedcontainers-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sortedcontainers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sortedcontainers-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sortedcontainers-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/sortedcontainers-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sortedcontainers-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sortedcontainers-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sortedcontainers-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sortedcontainers/badges/version.svg)](https://anaconda.org/conda-forge/sortedcontainers)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sortedcontainers/badges/downloads.svg)](https://anaconda.org/conda-forge/sortedcontainers)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sortedcontainers-green.svg)](https://anaconda.org/conda-forge/sortedcontainers) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sortedcontainers.svg)](https://anaconda.org/conda-forge/sortedcontainers) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sortedcontainers.svg)](https://anaconda.org/conda-forge/sortedcontainers) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sortedcontainers.svg)](https://anaconda.org/conda-forge/sortedcontainers) |
 
 Installing sortedcontainers
 ===========================
