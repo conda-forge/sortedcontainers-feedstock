@@ -1,6 +1,6 @@
 {% set name = "sortedcontainers" %}
-{% set version = "2.0.2" %}
-{% set sha256 = "2c9db81119d0285a26119554e1ce7332b846ff7f0d05c9a46e9490423685808a" %}
+{% set version = "2.0.3" %}
+{% set sha256 = "34014aa3f1da6d7196d4733f8b058b5b4239534e3df9366f899394336c5b5ed5" %}
 
 package:
   name: {{ name }}
