@@ -16,9 +16,8 @@ and fast as C-extensions.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sortedcontainers-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/sortedcontainers-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sortedcontainers-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sortedcontainers-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sortedcontainers-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sortedcontainers-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sortedcontainers-feedstock)
 
 Current release info
 ====================
