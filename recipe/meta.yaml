@@ -1,6 +1,6 @@
 {% set name = "sortedcontainers" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "974e9a32f56b17c1bac2aebd9dcf197f3eb9cd30553c5852a3187ad162e1a03a" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "331f5b7acb6bdfaf0b0646f5f86c087e414c9ae9d85e2076ad2eacb17ec2f4ff" %}
 
 package:
   name: {{ name }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
