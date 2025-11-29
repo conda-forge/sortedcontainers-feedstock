@@ -4,7 +4,6 @@ context:
   name: sortedcontainers
   version: 2.4.0
   sha256: 25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88
-  python_min: "3.9"
 
 package:
   name: ${{ name }}
