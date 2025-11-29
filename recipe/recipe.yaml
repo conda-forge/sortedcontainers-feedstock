@@ -1,0 +1,45 @@
+schema_version: 1
+
+context:
+  name: sortedcontainers
+  version: 2.4.0
+  sha256: 25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88
+  python_min: "3.9"
+
+package:
+  name: ${{ name }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: ${{ sha256 }}
+
+build:
+  noarch: python
+  number: 2
+  script: python -m pip install . --no-deps -vv
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - pip
+    - setuptools
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      imports:
+        - sortedcontainers
+      python_version: ${{ python_min }}.*
+      pip_check: true
+
+about:
+  homepage: http://www.grantjenks.com/docs/sortedcontainers/
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: Sorted containers - a new data structure for Python
+
+extra:
+  recipe-maintainers:
+    - grantjenks
